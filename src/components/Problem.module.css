@@ -1,0 +1,16 @@
+#problemDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFE1E8;
+    border-radius: 20px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+#problemPoints {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

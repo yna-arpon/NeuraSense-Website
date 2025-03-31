@@ -1,0 +1,12 @@
+#firstDiv {
+  background-color: white;
+  padding-bottom: 20%;
+}
+
+#secondDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 120, 149, 0.1);
+}
