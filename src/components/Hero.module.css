@@ -1,0 +1,32 @@
+#heroContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heroText {
+    text-align: left;
+    width: 43%;
+    font-size: 2.6rem;
+    padding-left: 3%;
+    line-height: 150%;
+    color: var(--burgundy);
+}
+
+#heroImg {
+    width: 50%;
+}
+
+/* Reponsive design for screens less than 599px */
+@media screen and (max-width: 599px) {
+    #heroText {
+        font-size: 1rem;
+    }
+
+    #heroImg {
+        width: 50%;
+    }
+}
