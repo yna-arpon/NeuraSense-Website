@@ -25,7 +25,7 @@ const Header = () => {
         </div>
         <div id={styles.headerBtnDiv}>
           <Button
-            innerText="About us"
+            innerText="About Us"
             onClickButton={handleAboutUsClick}
             btnClass="headerBtn"
           ></Button>

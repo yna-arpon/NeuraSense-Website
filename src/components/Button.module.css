@@ -8,7 +8,7 @@
     &:hover {
         cursor: pointer;
         text-decoration: underline;
-        transition: width 0.3s ease, left 0.3s ease;
+        
     }
 }
 
