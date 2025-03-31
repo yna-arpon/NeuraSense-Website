@@ -1,0 +1,38 @@
+#missionDiv {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 3%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    color: black;
+    margin: 0;
+}
+
+body {
+    color: var(--burgundy);
+}
+
+
+/* Reponsive design for screens less than 599px */
+@media screen and (max-width: 599px) {
+    #missionDiv {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    
+    h1 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: 0.9rem;
+    }
+}
