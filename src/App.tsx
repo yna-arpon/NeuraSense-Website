@@ -7,6 +7,7 @@ import Mission from "./components/Mission/Mission";
 import Problem from "./components/Problem/Problem";
 import Solution from "./components/Solution/Solution";
 import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       </div>
       <div className={styles.thirdDiv}>
         <Team></Team>
+        <Contact></Contact>
       </div>
     </>
   );
