@@ -23,7 +23,7 @@ const Header = () => {
           <img src={NeuraSenseLogo} id={styles.logo}></img>
           <h1 id={styles.logoLabel}>NeuraSense</h1>
         </div>
-        <div id={styles.headerBtnDiv}>
+        {/* <div id={styles.headerBtnDiv}>
           <Button
             innerText="About Us"
             onClickButton={handleAboutUsClick}
@@ -41,7 +41,7 @@ const Header = () => {
             onClickButton={handleContactUsClick}
             btnClass="headerBtn"
           ></Button>
-        </div>
+        </div> */}
       </div>
     </>
   );

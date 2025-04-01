@@ -9,7 +9,7 @@
 #neurasenseDiv {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     column-gap: 10px;
     width: 20%;
 }
@@ -28,6 +28,7 @@
 
 #logoLabel {
     font-size: 1.5rem;
+    margin: 0;
     columns: var(--grey);
 }
 
@@ -38,11 +39,12 @@
     }
 
     #logoLabel {
-        display: none;
+        /* display: none; */
+        font-size: 1.2rem;
     }
 
     #logo {
-        width: 90%;
-        height: 90%;
+        width: 60%;
+        height: 60%;
     }
 }
