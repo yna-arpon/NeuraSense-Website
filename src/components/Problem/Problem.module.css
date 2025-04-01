@@ -1,0 +1,40 @@
+h2 {
+    font-weight: 400;
+}
+
+#problemDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FFE1E8;
+    border-radius: 20px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+#problemPoints {
+    display: flex;
+    align-items: start;
+    width: 94%;
+    gap: 25px;
+    margin-bottom: 4%;
+}
+
+/* Reponsive design for screens less than 599px */
+@media screen and (max-width: 599px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    #problemDiv {
+        transform: translateY(-10%);
+    }
+
+    #problemPoints {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

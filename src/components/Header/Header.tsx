@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
-import Button from "./Button";
+import Button from "../Button/Button";
 
-import NeuraSenseLogo from "../assets/NeuraSense Logo.png";
+import NeuraSenseLogo from "../../assets/NeuraSense Logo.png";
 
 const Header = () => {
   const handleAboutUsClick = () => {
