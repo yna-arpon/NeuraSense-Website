@@ -1,12 +1,19 @@
 #solutionDiv {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 60%;
     margin-top: -10%;
-    gap: 20px;
-    /* transform: translateY(-40%); */
+    gap: 50px;
 }
 
 #solutionHeading {
     text-align: center;
+    margin: 0;
+}
+
+/* Reponsive design for screens less than 599px */
+@media screen and (max-width: 599px) {
+    #solutionDiv {
+        width: 90%;
+    }
 }

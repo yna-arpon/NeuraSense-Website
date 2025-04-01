@@ -2,6 +2,9 @@ import React from "react";
 import ProdBranch from "../ProdBranch/ProdBranch";
 import styles from "./Solution.module.css";
 
+import mockup from "../../assets/NeuraSense Mockup.png";
+import babyNeura from "../../assets/Baby Neura.png";
+
 function Solution() {
   return (
     <>
@@ -9,18 +12,20 @@ function Solution() {
         <h2 id={styles.solutionHeading}>Our Product</h2>
         <ProdBranch
           heading="Headset"
-          description="Continuously records electrical and oxygenation signals from the brain"
-          imageSrc="jello"
+          divClass="imgDiv"
+          description="A multimodal device, optimized for life support environments, that records electrical signals and oxygenation levels in the brain."
+          imageSrc={babyNeura}
         ></ProdBranch>
         <ProdBranch
           heading="Algorithm"
-          description="Analyzes incoming brain signals and assesses the risk of stroke"
-          imageSrc="hi"
+          divClass="noImg"
+          description="Recorded signals are processed to identify stroke-related patterns, irregularities and asymmetry in electrical activity and blood oxygen saturation."
         ></ProdBranch>
         <ProdBranch
           heading="Application"
-          description="Visualizes brain signals and displays to algorithm results"
-          imageSrc="bonjour"
+          divClass="imgDiv"
+          description="Live brain signals are visualized and stroke assessments are communicated to guide critical care decisions."
+          imageSrc={mockup}
         ></ProdBranch>
       </div>
     </>

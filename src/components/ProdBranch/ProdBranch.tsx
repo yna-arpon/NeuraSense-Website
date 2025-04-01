@@ -4,16 +4,24 @@ import styles from "./ProdBranch.module.css";
 interface Props {
   heading: string;
   description: string;
-  imageSrc: string;
+  imageSrc?: string;
+  divClass: string;
 }
 
-function ProdBranch({ heading, description, imageSrc }: Props) {
+function ProdBranch({ heading, description, imageSrc, divClass }: Props) {
+  const divType = divClass;
+
   return (
     <>
-      <div>
-        <div id={styles.descriptionDiv}>
+      <div className={`${styles[divClass]}`}>
+        <div className={`${styles.descriptionDiv}`}>
           <h3 id={styles.heading}>{heading}</h3>
-          <p id={styles.description}>{description}</p>
+          <div className={styles.desciptionAndImage}>
+            {imageSrc && (
+              <img src={imageSrc} alt={heading} className={styles.image} />
+            )}
+            <p id={styles.description}>{description}</p>
+          </div>
         </div>
       </div>
     </>
