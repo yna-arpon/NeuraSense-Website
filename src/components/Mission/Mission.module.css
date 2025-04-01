@@ -1,8 +1,10 @@
 #missionDiv {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    justify-content: center;
+    width: 80%;
     margin: 3%;
+    margin-left: 10%;
 }
 
 h1 {

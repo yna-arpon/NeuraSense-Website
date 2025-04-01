@@ -14,6 +14,7 @@
 /* Reponsive design for screens less than 599px */
 @media screen and (max-width: 599px) {
     #solutionDiv {
+        margin-top: 10%;
         width: 90%;
     }
 }
