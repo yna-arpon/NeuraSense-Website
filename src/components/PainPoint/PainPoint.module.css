@@ -1,0 +1,54 @@
+h3 {
+    font-weight: 300;
+    color: black;
+}
+
+#painPointDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+#iconFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 500px;
+    width: 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.icon {
+    padding: 15px;
+    font-size: 3rem;
+    color: var(--medpink);
+}
+
+#painPointHeader {
+    text-align: center;
+}
+
+#paintPointDescrip {
+    font-size: 0.93rem;
+    text-align: center;
+    font-weight: 300;
+    color: var(--burgundy);
+}
+
+@media screen and (max-width: 599px) {
+    #iconFrame {
+        width: 70px;
+    }
+
+    .icon {
+        padding: 10px;
+        font-size: 2rem;
+    }
+
+    #painPointDiv {
+        width: 80%;
+    }
+}

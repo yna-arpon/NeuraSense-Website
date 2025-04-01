@@ -1,0 +1,50 @@
+#headerDiv{
+    margin: 3%;
+    /* width: 95%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#neurasenseDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    width: 20%;
+}
+
+#headerBtnDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+}
+
+#logo {
+    width: 25%;
+    height: 25%;
+}
+
+#logoLabel {
+    font-size: 1.5rem;
+    margin: 0;
+    columns: var(--grey);
+}
+
+/* Reponsive design for screens less than 599px */
+@media screen and (max-width: 599px) {
+    #headerBtnDiv {
+        column-gap: 2px;
+    }
+
+    #logoLabel {
+        /* display: none; */
+        font-size: 1.2rem;
+    }
+
+    #logo {
+        width: 60%;
+        height: 60%;
+    }
+}

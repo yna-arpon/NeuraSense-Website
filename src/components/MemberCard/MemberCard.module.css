@@ -1,0 +1,45 @@
+.cardDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFE1E8;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 35%;
+    padding: 5%;
+    text-align: center;
+}
+
+.profilePhoto {
+    width: 60%;
+    border-radius: 200px;
+}
+
+.name {
+    font-size: 1.3rem;
+}
+
+.position {
+    font-size: 1.15rem;
+}
+
+/* Reponsive design for screens less than 599px */
+@media screen and (max-width: 599px) {
+    .cardDiv {
+        width: 60%;
+    }
+
+    .profilePhoto {
+        width: 70%;
+        object-fit: cover;
+        border-radius: 6000000px;
+    }
+    
+    .name {
+        font-size: 1rem;
+    }
+    
+    .position {
+        font-size: 0.9rem;
+    }
+}

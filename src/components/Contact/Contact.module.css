@@ -1,0 +1,23 @@
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+}
+
+.wave {
+    width: 100%;
+    transform: translateY(100px);
+    overflow-x: hidden;
+}
+
+.heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtext {
+    text-align: center;
+    margin-bottom: 15px;
+}
