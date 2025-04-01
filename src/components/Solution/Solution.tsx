@@ -6,7 +6,7 @@ function Solution() {
   return (
     <>
       <div id={styles.solutionDiv}>
-        <h2>Our Product</h2>
+        <h2 id={styles.solutionHeading}>Our Product</h2>
         <ProdBranch
           heading="Headset"
           description="Continuously records electrical and oxygenation signals from the brain"

@@ -2,5 +2,10 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    transform: translateY(-45%);
+    margin-top: -10%;
+    /* transform: translateY(-40%); */
+}
+
+#solutionHeading {
+    text-align: center;
 }
