@@ -6,18 +6,22 @@ import Hero from "./components/Hero/Hero";
 import Mission from "./components/Mission/Mission";
 import Problem from "./components/Problem/Problem";
 import Solution from "./components/Solution/Solution";
+import Team from "./components/Team/Team";
 
 const App = () => {
   return (
     <>
-      <div id={styles.firstDiv}>
+      <div className={styles.firstDiv}>
         <Header></Header>
         <Hero></Hero>
         <Mission></Mission>
       </div>
-      <div id={styles.secondDiv}>
+      <div className={styles.secondDiv}>
         <Problem></Problem>
         <Solution></Solution>
+      </div>
+      <div className={styles.thirdDiv}>
+        <Team></Team>
       </div>
     </>
   );
