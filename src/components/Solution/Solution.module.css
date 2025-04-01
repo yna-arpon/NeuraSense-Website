@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 80%;
     margin-top: -10%;
+    gap: 20px;
     /* transform: translateY(-40%); */
 }
 
