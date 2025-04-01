@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Mission from "./components/Mission/Mission";
 import Problem from "./components/Problem/Problem";
+import Solution from "./components/Solution/Solution";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       </div>
       <div id={styles.secondDiv}>
         <Problem></Problem>
+        <Solution></Solution>
       </div>
     </>
   );
